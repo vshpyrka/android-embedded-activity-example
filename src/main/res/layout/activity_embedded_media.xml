@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary70"
+    tools:context="com.example.embeddedactivity.ImagePreviewActivity">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/media"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_sheep_full"
+        app:roundPercent="0.2"
+        tools:src="@tools:sample/avatars" />
+
+</FrameLayout>

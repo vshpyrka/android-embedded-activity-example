@@ -1,0 +1,38 @@
+<!-- The split configuration for activities. -->
+<resources xmlns:window="http://schemas.android.com/apk/res-auto">
+
+    <SplitPairRule
+        window:clearTop="true"
+        window:splitRatio="0.5"
+        window:splitMinWidthDp="600"
+        window:splitLayoutDirection="locale"
+        window:splitMaxAspectRatioInPortrait="alwaysDisallow"
+        window:splitMaxAspectRatioInLandscape="alwaysAllow"
+        window:finishPrimaryWithSecondary="adjacent"
+        window:finishSecondaryWithPrimary="always">
+        <SplitPairFilter
+            window:primaryActivityName="com.example.embeddedactivity.ChatListActivity"
+            window:secondaryActivityName="com.example.embeddedactivity.ChatActivity">
+        </SplitPairFilter>
+    </SplitPairRule>
+
+    <!-- Display first activity placeholder -->
+
+    <SplitPlaceholderRule
+        window:splitMaxAspectRatioInPortrait="alwaysDisallow"
+        window:splitMaxAspectRatioInLandscape="alwaysAllow"
+        window:splitRatio="0.5"
+        window:splitMinWidthDp="600"
+        window:placeholderActivityName="com.example.embeddedactivity.ChatPlaceholderActivity">
+        <ActivityFilter
+            window:activityName="com.example.embeddedactivity.ChatListActivity"/>
+    </SplitPlaceholderRule>
+
+    <!-- Activities that should never be in a split. -->
+    <ActivityRule
+        window:alwaysExpand="true">
+        <ActivityFilter
+            window:activityName="com.example.embeddedactivity.ImagePreviewActivity"/>
+    </ActivityRule>
+
+</resources>

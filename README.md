@@ -8,9 +8,13 @@ Phone:
 
 https://github.com/vshpyrka/android-embedded-activity-example/assets/2741602/1b8afecc-5e61-43e6-a9c4-90c82c6387c6
 
-Tablet:
+Tablet Landscape:
 
 https://github.com/vshpyrka/android-embedded-activity-example/assets/2741602/f40dfe08-9a26-4a03-b214-fc0afd2c3ed9
+
+Tablet Portrait:
+
+https://github.com/vshpyrka/android-embedded-activity-example/assets/2741602/5a0fb6ef-f1f7-4c7d-90fd-329a90ba5edf
 
 [main_split_config.xml](https://github.com/vshpyrka/android-embedded-activity-example/blob/main/src/main/res/xml/main_split_config.xml) - Configuration file which contains information about how activities should be split.
 

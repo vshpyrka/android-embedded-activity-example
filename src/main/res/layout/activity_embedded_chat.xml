@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_tertiary70"
     tools:context="com.example.embeddedactivity.ChatActivity">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -20,7 +19,6 @@
         android:id="@+id/bottom_bar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_primary40"
         android:gravity="center_vertical"
         android:minHeight="56dp"
         android:orientation="horizontal"
